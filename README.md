@@ -180,6 +180,7 @@ should be at least 6 minutes!
 #### No Session
 If no session is required (i.e.: testing, inventory collection) then a `--nosession` can
 be added to close session on the BMC properly.
+It is not recommended to use this option as it unnecessary creates a new session on each plugin run.
 
 #### Session file name and location
 Per default a session file will be crated in the *system/user default temp path*.
